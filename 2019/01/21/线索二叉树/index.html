@@ -79,16 +79,20 @@
 
 
 
-<meta name="description" content="C++后端|工科宅">
-<meta property="og:type" content="website">
+<meta name="description" content="一、线索二叉树概念具有 n 个结点的二叉链表中，其二叉链表的 n 个结点中共有 2n 个指针域，在这 2n 个指针域中，真正用于指向后件（左子结点或右子结点）的指针域只有 n-1 个，而另外的 n+1 个指针域都是空的。这样就利用二叉链表中的空指针域，存放指向结点在某种遍历次序下的前趋和后继结点的指针（这种附加的指针称为 “ 线索 “ ），这种加上了线索的二叉链表称为线索链表，相应的二叉树称为线索">
+<meta property="og:type" content="article">
 <meta property="og:title" content="古渡廊桥">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/01/21/线索二叉树/index.html">
 <meta property="og:site_name" content="古渡廊桥">
-<meta property="og:description" content="C++后端|工科宅">
+<meta property="og:description" content="一、线索二叉树概念具有 n 个结点的二叉链表中，其二叉链表的 n 个结点中共有 2n 个指针域，在这 2n 个指针域中，真正用于指向后件（左子结点或右子结点）的指针域只有 n-1 个，而另外的 n+1 个指针域都是空的。这样就利用二叉链表中的空指针域，存放指向结点在某种遍历次序下的前趋和后继结点的指针（这种附加的指针称为 “ 线索 “ ），这种加上了线索的二叉链表称为线索链表，相应的二叉树称为线索">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="c:/Users/S/Pictures/22a6d209-821f-3866-93d1-8e3f9aee94dc.gif">
+<meta property="og:image" content="c:/Users/S/Pictures/a19c238d-07eb-3687-b4f6-f02b3b579b16.gif">
+<meta property="og:updated_time" content="2019-01-21T06:09:28.592Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="古渡廊桥">
-<meta name="twitter:description" content="C++后端|工科宅">
+<meta name="twitter:description" content="一、线索二叉树概念具有 n 个结点的二叉链表中，其二叉链表的 n 个结点中共有 2n 个指针域，在这 2n 个指针域中，真正用于指向后件（左子结点或右子结点）的指针域只有 n-1 个，而另外的 n+1 个指针域都是空的。这样就利用二叉链表中的空指针域，存放指向结点在某种遍历次序下的前趋和后继结点的指针（这种附加的指针称为 “ 线索 “ ），这种加上了线索的二叉链表称为线索链表，相应的二叉树称为线索">
+<meta name="twitter:image" content="c:/Users/S/Pictures/22a6d209-821f-3866-93d1-8e3f9aee94dc.gif">
 
 
 
@@ -118,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/21/线索二叉树/">
 
 
 
 
 
-  <title>古渡廊桥</title>
+  <title> | 古渡廊桥</title>
   
 
 
@@ -143,8 +147,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -237,9 +240,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -269,9 +272,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/01/21/线索二叉树/" itemprop="url">未命名</a></h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -321,9 +322,7 @@
       
 
       
-        
-          
-            <h3 id="一、线索二叉树概念"><a href="#一、线索二叉树概念" class="headerlink" title="一、线索二叉树概念"></a>一、线索二叉树概念</h3><p>具有 n 个结点的二叉链表中，其二叉链表的 n 个结点中共有 2n 个指针域，在这 2n 个指针域中，真正用于指向后件（左子结点或右子结点）的指针域只有 n-1 个，而另外的 n+1 个指针域都是空的。这样就利用二叉链表中的空指针域，存放指向结点在某种遍历次序下的前趋和后继结点的指针（这种附加的指针称为 “ 线索 “ ），这种加上了线索的二叉链表称为线索链表，相应的二叉树称为线索二叉树 (ThreadedBinaryTree) 。根据线索性质的不同，线索二叉树可分为前序线索二叉树、中序线索二叉树和后序线索二叉树三种。</p>
+        <h3 id="一、线索二叉树概念"><a href="#一、线索二叉树概念" class="headerlink" title="一、线索二叉树概念"></a>一、线索二叉树概念</h3><p>具有 n 个结点的二叉链表中，其二叉链表的 n 个结点中共有 2n 个指针域，在这 2n 个指针域中，真正用于指向后件（左子结点或右子结点）的指针域只有 n-1 个，而另外的 n+1 个指针域都是空的。这样就利用二叉链表中的空指针域，存放指向结点在某种遍历次序下的前趋和后继结点的指针（这种附加的指针称为 “ 线索 “ ），这种加上了线索的二叉链表称为线索链表，相应的二叉树称为线索二叉树 (ThreadedBinaryTree) 。根据线索性质的不同，线索二叉树可分为前序线索二叉树、中序线索二叉树和后序线索二叉树三种。</p>
 <h3 id="二、线索二叉树的结点结构"><a href="#二、线索二叉树的结点结构" class="headerlink" title="二、线索二叉树的结点结构"></a>二、线索二叉树的结点结构</h3><p>线索链表中的结点结构为： </p>
 <p><img src="C:\Users\S\Pictures\22a6d209-821f-3866-93d1-8e3f9aee94dc.gif" alt="22a6d209-821f-3866-93d1-8e3f9aee94dc"></p>
 <p>  ltag 和 rtag 是增加的两个标志域，用来区分结点的左、右指针域是指向其左、右孩子的指针，还是指向其前趋或后继的线索。</p>
@@ -335,8 +334,6 @@
 <h5 id="（2）、将二叉树按中序线索化的算法"><a href="#（2）、将二叉树按中序线索化的算法" class="headerlink" title="（2）、将二叉树按中序线索化的算法"></a>（2）、将二叉树按中序线索化的算法</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">PROCEDURE <span class="title">INTHREAD</span><span class="params">(BT,h)</span>  </span></span><br><span class="line">IF BT != 0 THEN  </span><br><span class="line">    &#123;  </span><br><span class="line">        INTHREAD(L(BT),h)  </span><br><span class="line">        IF (h != <span class="number">0</span>) <span class="keyword">and</span> (R(h) = <span class="number">0</span>) THEN  </span><br><span class="line">            &#123; R(h) = BT; Rflag(h) = <span class="number">1</span>; &#125;  </span><br><span class="line">        <span class="function">IF <span class="title">L</span><span class="params">(BT)</span> </span>= <span class="number">0</span> THEN  </span><br><span class="line">            &#123; L(BT) = h; Lflag(BT) = <span class="number">1</span>; &#125;  </span><br><span class="line">        h = BT  </span><br><span class="line">        INTHREAD(R(BT),h)  </span><br><span class="line">    &#125;  </span><br><span class="line">RETURN</span><br></pre></td></tr></table></figure>
 <h5 id="3-、算法分析"><a href="#3-、算法分析" class="headerlink" title="(3)、算法分析"></a>(3)、算法分析</h5><p>和中序遍历算法一样，递归过程中对每结点仅做一次访问。因此对于 n 个结点的二叉树，算法的时间复杂度亦为 O(n) 。</p>
 
-          
-        
       
     </div>
     
@@ -353,140 +350,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/21/hello-world/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="宋伟">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="古渡廊桥">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/01/21/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-21T12:12:56+08:00">
-                2019-01-21
-              </time>
+              <a href="/2019/01/21/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -496,10 +381,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -507,6 +393,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -527,8 +417,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -588,6 +487,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、线索二叉树概念"><span class="nav-number">1.</span> <span class="nav-text">一、线索二叉树概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、线索二叉树的结点结构"><span class="nav-number">2.</span> <span class="nav-text">二、线索二叉树的结点结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、二叉树的线索化"><span class="nav-number">3.</span> <span class="nav-text">三、二叉树的线索化</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、线索化和线索化实质"><span class="nav-number">3.1.</span> <span class="nav-text">1、线索化和线索化实质</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、二叉树的中序线索化"><span class="nav-number">3.2.</span> <span class="nav-text">2、二叉树的中序线索化</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#（1）、分析"><span class="nav-number">3.2.1.</span> <span class="nav-text">（1）、分析</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#（2）、将二叉树按中序线索化的算法"><span class="nav-number">3.2.2.</span> <span class="nav-text">（2）、将二叉树按中序线索化的算法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-、算法分析"><span class="nav-number">3.2.3.</span> <span class="nav-text">(3)、算法分析</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -741,6 +656,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
